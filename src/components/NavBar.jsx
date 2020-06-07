@@ -31,13 +31,13 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">
-                Contact
+              <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">
+                Educación
               </a>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#informacion">
-                Informacion
+              <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#information">
+                Información
               </a>
             </li>
           </ul>

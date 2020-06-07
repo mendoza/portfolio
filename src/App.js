@@ -4,17 +4,17 @@ import Header from './sections/Header';
 import Footer from './sections/Footer';
 import Portfolio from './sections/Portfolio';
 import About from './sections/About';
-import Contact from './sections/Contact';
+import Education from './sections/Education';
 import Copyright from './components/Copyright';
 
 function App() {
   return (
-    <body id="page-top">
+    <div id="page-top">
       <NavBar />
       <Header />
       <Portfolio />
       <About />
-      <Contact />
+      <Education />
       <Footer />
       <Copyright />
       <div className="scroll-to-top d-lg-none position-fixed">
@@ -22,7 +22,7 @@ function App() {
           <i className="fa fa-chevron-up" />
         </a>
       </div>
-    </body>
+    </div>
   );
 }
 

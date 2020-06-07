@@ -1,6 +1,6 @@
 import React from 'react';
-import Section from '../components/Section';
 import { Row } from 'reactstrap';
+import Section from '../components/Section';
 
 const About = () => {
   return (
