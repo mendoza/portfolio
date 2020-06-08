@@ -5,7 +5,9 @@ import Footer from './sections/Footer';
 import Portfolio from './sections/Portfolio';
 import About from './sections/About';
 import Education from './sections/Education';
+import Experience from './sections/Experience';
 import Copyright from './components/Copyright';
+import Technologies from './sections/Technologies';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Header />
       <Portfolio />
       <About />
+      <Experience />
       <Education />
+      <Technologies />
       <Footer />
       <Copyright />
       <div className="scroll-to-top d-lg-none position-fixed">

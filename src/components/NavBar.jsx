@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          David Mendoza
+          David M.
         </a>
         <button
           className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-secondary text-white rounded"
@@ -31,12 +31,28 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
+              <a
+                className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#experience">
+                Experiencia
+              </a>
+            </li>
+            <li className="nav-item mx-0 mx-lg-1">
               <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">
                 Educación
               </a>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#information">
+              <a
+                className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#technologies">
+                Tecnologias
+              </a>
+            </li>
+            <li className="nav-item mx-0 mx-lg-1">
+              <a
+                className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#information">
                 Información
               </a>
             </li>
